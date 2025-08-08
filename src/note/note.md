@@ -91,4 +91,20 @@ Spring juga menggunakan ini:
 > misalnya nama grubnya pzn.
 > 1. buat logging.group.pzn di file `application-test.properties`.
 > 2. Kemudian ubah logging levelnya menjadi warn.
-> 3. Kemudian buat test testLog() di class LoggingTest.
+> 3. Kemudian buat test testLog()
+
+## Log Pattern
+
+```
+- Mengubah default log pattern di Spring Boot dengan application.properties.
+1. logging.pattern.console untuk mengubah log pattern console.
+2. logging.pattern.file untuk mengubah log pattern file.
+```
+
+> > Contoh: Tambahkan looging pattern di file `application-test.properties`
+> > Kemudian coba running unit test LoggingTest => testLog() lagi.
+> > Bandingkan hasilnya atara di file applicatio.log dengan di console. Beda susunan format penulisannya saja.
+> 1. file application.log
+     > ![img_3.png](img_3.png)
+> 2. console
+     > ![img_4.png](img_4.png)
