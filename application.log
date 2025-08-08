@@ -33,3 +33,17 @@
 2025-08-08T18:00:44.420+08:00  INFO 31454 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Belajar Java
 2025-08-08T18:00:44.421+08:00  WARN 31454 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Belajar Spring
 2025-08-08T18:00:44.421+08:00 ERROR 31454 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Belajar Programmer Zaman Now
+2025-08-08T18:05:26.538+08:00  INFO 32015 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Starting LoggingTest using Java 21.0.8 with PID 32015 (started by cahya-kumala in /home/cahya-kumala/my-course/spring/spring-logging)
+2025-08-08T18:05:26.539+08:00  INFO 32015 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : No active profile set, falling back to 1 default profile: "default"
+2025-08-08T18:05:26.843+08:00  INFO 32015 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Started LoggingTest in 0.548 seconds (process running for 1.256)
+2025-08-08T18:05:27.447+08:00  INFO 32015 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Belajar Java
+2025-08-08T18:05:27.447+08:00  WARN 32015 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Belajar Spring
+2025-08-08T18:05:27.448+08:00 ERROR 32015 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Belajar Programmer Zaman Now
+2025-08-08T18:06:14.826+08:00  INFO 32150 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Starting LoggingTest using Java 21.0.8 with PID 32150 (started by cahya-kumala in /home/cahya-kumala/my-course/spring/spring-logging)
+2025-08-08T18:06:14.828+08:00  INFO 32150 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : No active profile set, falling back to 1 default profile: "default"
+2025-08-08T18:06:15.127+08:00  INFO 32150 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Started LoggingTest in 0.612 seconds (process running for 1.467)
+2025-08-08T18:06:15.500+08:00  INFO 32150 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Belajar Java
+2025-08-08T18:06:15.500+08:00  WARN 32150 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Belajar Spring
+2025-08-08T18:06:15.500+08:00 ERROR 32150 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Belajar Programmer Zaman Now
+2025-08-08T18:06:36.843+08:00  WARN 32265 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Belajar Spring
+2025-08-08T18:06:36.843+08:00 ERROR 32265 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Belajar Programmer Zaman Now
