@@ -21,3 +21,15 @@
 2025-08-08T17:43:23.973+08:00  WARN 29080 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Hello World99999
 2025-08-08T17:43:24.001+08:00  WARN 29080 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Belajar Spring
 2025-08-08T17:43:24.001+08:00 ERROR 29080 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Belajar Programmer Zaman Now
+2025-08-08T17:59:55.777+08:00  INFO 31255 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Starting LoggingTest using Java 21.0.8 with PID 31255 (started by cahya-kumala in /home/cahya-kumala/my-course/spring/spring-logging)
+2025-08-08T17:59:55.778+08:00  INFO 31255 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : No active profile set, falling back to 1 default profile: "default"
+2025-08-08T17:59:56.246+08:00  INFO 31255 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Started LoggingTest in 0.855 seconds (process running for 1.834)
+2025-08-08T17:59:57.339+08:00  INFO 31255 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Belajar Java
+2025-08-08T17:59:57.339+08:00  WARN 31255 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Belajar Spring
+2025-08-08T17:59:57.339+08:00 ERROR 31255 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Belajar Programmer Zaman Now
+2025-08-08T18:00:43.721+08:00  INFO 31454 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Starting LoggingTest using Java 21.0.8 with PID 31454 (started by cahya-kumala in /home/cahya-kumala/my-course/spring/spring-logging)
+2025-08-08T18:00:43.722+08:00  INFO 31454 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : No active profile set, falling back to 1 default profile: "default"
+2025-08-08T18:00:44.017+08:00  INFO 31454 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Started LoggingTest in 0.6 seconds (process running for 1.444)
+2025-08-08T18:00:44.420+08:00  INFO 31454 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Belajar Java
+2025-08-08T18:00:44.421+08:00  WARN 31454 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Belajar Spring
+2025-08-08T18:00:44.421+08:00 ERROR 31454 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Belajar Programmer Zaman Now

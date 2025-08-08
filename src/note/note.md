@@ -72,3 +72,23 @@ Spring Boot mempermudah untuk melakukan rolling file logging menggunakan Logback
 > 3. Kemudian test running LoggingTest. Mungkin ada 10 kilo byte, maka akan ada 10 file log.
      > Jadi setiap lebih dari 10 kilo byte, maka akan ada file baru.
      > ![img_2.png](img_2.png)
+
+## Log Grup
+
+```
+- Pada beberapa kasus, kita perlu membuat konfigurasi logging yang sama untuk beberapa pacakage.
+- Spring Boot memiliki fitur bernama Log Grup, untuk membuat nama log grup dari beberapa package.
+- Keuntungan: dapat menggunakan nama log grup tersebut ketika melakukan logging level
+- Kita bisa menggunakan application.properties: logging.group.nama-log-grup=package1,package2,package3.
+
+Spring juga menggunakan ini:
+1. ADA grub web
+2. ADA grub sql
+```
+
+> Contoh:
+> Membuat logging grup di file `application-test.properties`:
+> misalnya nama grubnya pzn.
+> 1. buat logging.group.pzn di file `application-test.properties`.
+> 2. Kemudian ubah logging levelnya menjadi warn.
+> 3. Kemudian buat test testLog() di class LoggingTest.
