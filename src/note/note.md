@@ -108,3 +108,11 @@ Spring juga menggunakan ini:
      > ![img_3.png](img_3.png)
 > 2. console
      > ![img_4.png](img_4.png)
+
+## Custom Log Configuration
+
+```
+- Jika tidak ingin menggunakan fitur bawaan Spring Boot, dan ingin membuat konfigurasi logback sendiri.
+- Maka tambahkan file logback.xml di resources.
+- Otomatis spring boot mendeteksi file logback.xml dan membaca konfigurasi Logging dari file tersebut.
+```
