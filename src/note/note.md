@@ -54,3 +54,21 @@ CARA:
 Jadi hasilnya sama seperti di console, hanya saja sekarang ada di file. Yakni file application.log.
 Kalau test ulang running, maka file application.log akan bertambah isinya.
 ```
+
+## File Rolling
+
+```
+Spring Boot mempermudah untuk melakukan rolling file logging menggunakan Logback.
+```
+
+![img_1.png](img_1.png
+> Contoh:
+> 1. Ubah file `application-test.properties` dengan menambahkan konfigurasi rolling file:
+>
+> - logging.lohgback.rollingpolicy.max-file-size=10KB
+> - logging.logback.rollingpolicy.max-history=10
+> - logging.logback.rollingpolicy.total-size-cap=1GB
+> 2. Buat test testLongLogging() di class LoggingTest dengan perulangan untuk mencapai ukuran file.
+> 3. Kemudian test running LoggingTest. Mungkin ada 10 kilo byte, maka akan ada 10 file log.
+     > Jadi setiap lebih dari 10 kilo byte, maka akan ada file baru.
+     > ![img_2.png](img_2.png)
