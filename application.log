@@ -1,0 +1,4 @@
+2025-08-08T17:28:22.823+08:00  WARN 27927 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Belajar Spring
+2025-08-08T17:28:22.824+08:00 ERROR 27927 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Belajar Programmer Zaman Now
+2025-08-08T17:30:25.484+08:00  WARN 28132 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Belajar Spring
+2025-08-08T17:30:25.485+08:00 ERROR 28132 --- [spring-logging] [main] com.cahya.springlogging.LoggingTest      : Belajar Programmer Zaman Now

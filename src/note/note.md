@@ -32,3 +32,25 @@ CARA:
 
 > Contoh: Buat file `application-test.properties`
 > 1. Buat foder resources di src/test/resources/application-test.properties.
+> 2. Setting logging level di file `application-test.properties` kemudian running unit test LosgingTest.
+
+## File Output - Dari console simpan ke File Log
+
+```
+- Secara default, Spring Boot melakukan logging output hanya ke console.
+- Namun Spring Boot dapat mengaktifkan logging output ke Filem dengan menggungakan properties.
+- logging.file.name => untuk menentukan nama file logging.
+  Misal application,log atau /tmp/application.log.
+- logging.file.path => menentukan nama folder outpur, dan akan menggunakan nama file sprinh.log.
+  Misalnya /tmp/ maka lognya akan menjadi /tmp/spring.log.
+```
+
+> Contoh:
+> 1. Menambahkan logging.file.name di file `application-test.properties`.
+> 2. Running ulang unit test LoggingTest.
+> 3. Kemudian muncul dan buka file application.log
+
+```
+Jadi hasilnya sama seperti di console, hanya saja sekarang ada di file. Yakni file application.log.
+Kalau test ulang running, maka file application.log akan bertambah isinya.
+```
